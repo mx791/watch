@@ -4,11 +4,11 @@ import re
 import pandas as pd
 import datetime
 
-def get_filename():
+def get_filename() -> str:
     dt = datetime.datetime.now()
     return f"./data/out_{dt.year}_{dt.month}_{dt.day}.csv"
 
-def sanitize(txt):
+def sanitize(txt: str) -> str:
     return txt.replace("\n", "").replace('\\xa', "").replace("\u202f", "").replace("\xa0", "")
 
 
@@ -37,7 +37,7 @@ def process_body(r) -> pd.DataFrame:
     })
 
 
-def scrapp_brand(name, max=250) -> pd.DataFrame:
+def scrapp_brand(name: str, max=250) -> pd.DataFrame:
 
     data = None
     try:
@@ -46,22 +46,26 @@ def scrapp_brand(name, max=250) -> pd.DataFrame:
         pass
 
     try:
+        no_new_counter = 0
         for i in range(max):
             url = f"https://www.chrono24.fr/{name}/index-{i}.htm?goal_suggest=1"
             r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'})
-            if r.status_code == 404:
+            
+            if r.status_code != 200:
                 break
 
             results = process_body(r)
             results["brand"] = results["uid"].apply(lambda x: name)
 
+            last_length = len(data)
             data = results if data is None else pd.concat([data, results])
             print(i, len(data))
             data = data.drop_duplicates(subset="uid", keep="first")
             
             data.to_csv(get_filename(), sep=";", encoding="utf-8")
 
-            if len(results) == 0:
+            no_new_counter = 0 if len(data) > last_length else no_new_counter + 1
+            if no_new_counter > 5:
                 break
 
     except Exception as e:
