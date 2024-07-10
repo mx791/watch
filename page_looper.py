@@ -57,7 +57,7 @@ def scrapp_brand(name: str, max=250) -> pd.DataFrame:
             results = process_body(r)
             results["brand"] = results["uid"].apply(lambda x: name)
 
-            last_length = len(data)
+            last_length = 0 if data is None else len(data)
             data = results if data is None else pd.concat([data, results])
             print(i, len(data))
             data = data.drop_duplicates(subset="uid", keep="first")
