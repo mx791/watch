@@ -34,6 +34,14 @@ Nom du dernier fichier: {name}
 ![image](./out/count_per_name.jpeg)
 ![image](./out/avg_price_per_name_desc.jpeg)
 ![image](./out/avg_price_per_name_asc.jpeg)
+
+## Détails des marques
+|Marque|Nombre d'annonces|Prix moyen|Prix max|Prix median|
+|------|-----------------|----------|--------|-----------|
 """
+
+aggregated = df.groupby("brand").aggregate({"uid": "count", "prix": ["mean", "max", "median", "std"]})
+for i in range(len(aggregated)):
+    txt += f"|{aggregated.index[i]}|{aggregated["uid"].values[i][0]}|{int(aggregated["prix"].values[i][0])}|{int(aggregated["prix"].values[i][1])}|{int(aggregated["prix"].values[i][2])}| \n"
 
 open("./README.md", "w+").write(txt)
