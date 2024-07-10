@@ -6,7 +6,7 @@ from utils import listdir_nohidden
 name = list(listdir_nohidden("./data"))[0]
 print(name)
 data = pd.read_csv(f"./data/{name}", index_col=0, sep=";")
-theme = "plotly_dark"
+theme = "plotly_white"
 
 
 count_per_brands = data["brand"].value_counts()

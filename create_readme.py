@@ -6,7 +6,7 @@ import datetime
 from utils import listdir_nohidden
 
 
-theme = "plotly_dark"
+theme = "plotly_white"
 
 files = listdir_nohidden("./data")
 sizes = []
