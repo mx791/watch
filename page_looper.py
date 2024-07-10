@@ -3,8 +3,11 @@ from bs4 import BeautifulSoup
 import re
 import pandas as pd
 import datetime
-from multiprocessing import Process
+from multiprocessing import Process, Lock
+import time
 
+
+mutex = Lock()
 
 def get_filename() -> str:
     dt = datetime.datetime.now()
@@ -42,6 +45,7 @@ def process_body(r) -> pd.DataFrame:
 def scrapp_brand(name: str, max=250) -> pd.DataFrame:
 
     data = None
+    print("scraping", name)
 
     try:
         no_new_counter = 0
@@ -59,12 +63,6 @@ def scrapp_brand(name: str, max=250) -> pd.DataFrame:
             data = results if data is None else pd.concat([data, results])
             # print(name, i, len(data))
             data = data.drop_duplicates(subset="uid", keep="first")
-            
-            if i % 50 == 0 and i > 1:
-                data_ = pd.read_csv(get_filename(), sep=";", index_col=0)
-                data_ = pd.concat([data_, data]).drop_duplicates("uid")
-                data_.to_csv(get_filename(), sep=";", encoding="utf-8")
-                print(len(data_))
 
             no_new_counter = 0 if len(data) > last_length else no_new_counter + 1
             if no_new_counter > 5:
@@ -74,13 +72,24 @@ def scrapp_brand(name: str, max=250) -> pd.DataFrame:
         print(e)
 
     data = data.drop_duplicates(subset="uid")
-    data_ = pd.read_csv(get_filename(), sep=";", index_col=0)
-    data_ = pd.concat([data_, data])
-    data.to_csv(get_filename(), sep=";", encoding="utf-8")
+
+    with mutex:
+        print(name, len(data), "annonces", i, "pages")
+
+        try:
+            data2 = pd.read_csv(get_filename(), sep=";", index_col=0)
+            data = pd.concat([data2, data]).drop_duplicates("uid")
+        except:
+            pass
+        
+        data.to_csv(get_filename(), sep=";", encoding="utf-8")
+        
     return data
 
 
 if __name__ == '__main__':
+
+    start = time.time()
 
     brands = [
         "tudor", "rolex", "omega", "tissot", "breitling",
@@ -95,3 +104,8 @@ if __name__ == '__main__':
 
     for p in processes:
         p.join()
+
+    end = time.time()
+    data = pd.read_csv(get_filename(), sep=";", index_col=0)
+    print(len(data), "annonces")
+    print("done in", end-start, "s")
