@@ -30,10 +30,10 @@ f.write_image("./out/count_per_name.jpeg", format="jpeg")
 
 
 
-price_per_model = data[["name", "prix"]].groupby(by="name").mean().sort_values("prix", ascending=False)
+price_per_model = data[["name", "prix", "brand"]].groupby(by="name").agg({"prix": "mean", "brand": "last"}).sort_values("prix", ascending=False)
 f = px.bar(
     x=price_per_model.index[0:15], y=price_per_model["prix"].values[0:15], template=theme,
-    title="Modèles les plus chers (par prix moyen)",
+    title="Modèles les plus chers (par prix moyen)"
 ).update_layout(
     xaxis_title="", yaxis_title="", height=500, width=1200, title_x=0.5, 
 ).update_yaxes(type="log")
