@@ -1,6 +1,5 @@
 import pandas as pd
 import plotly.express as px
-import plotly
 import os
 import datetime
 from utils import listdir_nohidden

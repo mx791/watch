@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import re
 import pandas as pd
 import datetime
+from multiprocessing import Process
+
 
 def get_filename() -> str:
     dt = datetime.datetime.now()
@@ -40,10 +42,6 @@ def process_body(r) -> pd.DataFrame:
 def scrapp_brand(name: str, max=250) -> pd.DataFrame:
 
     data = None
-    try:
-        data = pd.read_csv(get_filename(), sep=";", index_col=0)
-    except Exception:
-        pass
 
     try:
         no_new_counter = 0
@@ -59,10 +57,14 @@ def scrapp_brand(name: str, max=250) -> pd.DataFrame:
 
             last_length = 0 if data is None else len(data)
             data = results if data is None else pd.concat([data, results])
-            print(i, len(data))
+            # print(name, i, len(data))
             data = data.drop_duplicates(subset="uid", keep="first")
             
-            data.to_csv(get_filename(), sep=";", encoding="utf-8")
+            if i % 50 == 0 and i > 1:
+                data_ = pd.read_csv(get_filename(), sep=";", index_col=0)
+                data_ = pd.concat([data_, data]).drop_duplicates("uid")
+                data_.to_csv(get_filename(), sep=";", encoding="utf-8")
+                print(len(data_))
 
             no_new_counter = 0 if len(data) > last_length else no_new_counter + 1
             if no_new_counter > 5:
@@ -72,14 +74,24 @@ def scrapp_brand(name: str, max=250) -> pd.DataFrame:
         print(e)
 
     data = data.drop_duplicates(subset="uid")
+    data_ = pd.read_csv(get_filename(), sep=";", index_col=0)
+    data_ = pd.concat([data_, data])
+    data.to_csv(get_filename(), sep=";", encoding="utf-8")
     return data
 
-brands = [
-    "tudor", "rolex", "omega", "tissot", "breitling",
-    "patekphilippe", "jaegerlecoultre", "seiko", "cartier",
-    "audemarspiguet", "tagheuer", "panerai", "hublot"
-]
-for b in brands:
-    print("---------")
-    print(b)
-    scrapp_brand(b, max=350)
+
+if __name__ == '__main__':
+
+    brands = [
+        "tudor", "rolex", "omega", "tissot", "breitling",
+        "patekphilippe", "jaegerlecoultre", "seiko", "cartier",
+        "audemarspiguet", "tagheuer", "panerai", "hublot"
+    ]
+    processes = []
+    for b in brands:
+        p = Process(target=scrapp_brand, args=(b, 350))
+        p.start()
+        processes.append(p)
+
+    for p in processes:
+        p.join()
