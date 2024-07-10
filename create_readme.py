@@ -42,6 +42,18 @@ Nom du dernier fichier: {name}
 
 aggregated = df.groupby("brand").aggregate({"uid": "count", "prix": ["mean", "max", "median", "std"]})
 for i in range(len(aggregated)):
-    txt += f"|{aggregated.index[i]}|{aggregated["uid"].values[i][0]}|{int(aggregated["prix"].values[i][0])}|{int(aggregated["prix"].values[i][1])}|{int(aggregated["prix"].values[i][2])}| \n"
+    txt += f"|{aggregated.index[i]}|{aggregated["uid"].values[i][0]}|{int(aggregated["prix"].values[i][0])} €|{int(aggregated["prix"].values[i][1])} €|{int(aggregated["prix"].values[i][2])} €| \n"
+
+
+txt += """
+## Détails des modèles
+Nom du modèle|Nombre d'annonces|Prix moyen|Prix median|
+|-------------|-----------------|----------|-----------|
+"""
+aggregated = df.groupby("name").aggregate({
+    "uid": "count", "prix": ["mean", "median", "std"], "brand": "first"
+}).sort_values(("uid", "count"), ascending=False)[0:30]
+for i in range(len(aggregated)):
+    txt += f"|{aggregated.index[i]}|{aggregated["uid"].values[i][0]}|{int(aggregated["prix"].values[i][0])} €|{int(aggregated["prix"].values[i][1])} €| \n"
 
 open("./README.md", "w+").write(txt)
