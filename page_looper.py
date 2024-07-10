@@ -92,8 +92,8 @@ if __name__ == '__main__':
     start = time.time()
 
     brands = [
-        "tudor", "rolex", "omega", "tissot", "breitling",
-        "patekphilippe", "jaegerlecoultre", "seiko", "cartier",
+        #"tudor", "rolex", "omega", "tissot", "breitling",
+        #"patekphilippe", "jaegerlecoultre", "seiko", "cartier",
         "audemarspiguet", "tagheuer", "panerai", "hublot"
     ]
     processes = []
