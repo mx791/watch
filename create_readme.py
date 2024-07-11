@@ -8,11 +8,11 @@ from datetime import datetime
 
 theme = "plotly_white"
 
-files = listdir_nohidden("./data")
+files = list(listdir_nohidden("./data"))
 sizes = []
 names = []
 
-for f in list(files):
+for f in files:
     df = pd.read_csv(f"./data/{f}", sep=";")
     sizes.append(len(df))
     names.append(f)
