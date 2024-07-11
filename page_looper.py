@@ -9,9 +9,15 @@ import time
 
 mutex = Lock()
 
+def wrap(val: int) -> str:
+    if val >= 10:
+        return str(val)
+    return "0" + str(val)
+
+
 def get_filename() -> str:
     dt = datetime.datetime.now()
-    return f"./data/out_{dt.year}_{dt.month}_{dt.day}.csv"
+    return f"./data/out_{dt.year}_{wrap(dt.month)}_{wrap(dt.day)}.csv"
 
 def sanitize(txt: str) -> str:
     return txt.replace("\n", "").replace('\\xa', "").replace("\u202f", "").replace("\xa0", "")
