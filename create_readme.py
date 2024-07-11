@@ -3,6 +3,7 @@ import plotly.express as px
 import os
 import datetime
 from utils import listdir_nohidden
+from datetime import datetime
 
 
 theme = "plotly_white"
@@ -56,4 +57,5 @@ aggregated = df.groupby("name").aggregate({
 for i in range(len(aggregated)):
     txt += f"|{aggregated.index[i]}|{aggregated["uid"].values[i][0]}|{int(aggregated["prix"].values[i][0])} €|{int(aggregated["prix"].values[i][1])} €| \n"
 
+txt += f"Readme generated on {datetime.now().strftime("%d/%m/%Y %H:%M:%S")}"
 open("./README.md", "w+").write(txt)
