@@ -3,7 +3,7 @@
 ![image](./out/count_per_day.jpeg)
 
 ## Analyse des dernières données
-Nom du dernier fichier: out_2024_7_9.csv
+Nom du dernier fichier: .DS_Store
 ![image](./out/count_per_brand.jpeg)
 ![image](./out/count_per_name.jpeg)
 ![image](./out/avg_price_per_name_desc.jpeg)
@@ -61,4 +61,4 @@ Nom du modèle|Nombre d'annonces|Prix moyen|Prix median|
 |Omega Seamaster Aqua Terra|1260|4821 €|4637 €| 
 
 
- Readme generated on 11/07/2024 09:16:07
+ Readme generated on 11/07/2024 09:20:46
