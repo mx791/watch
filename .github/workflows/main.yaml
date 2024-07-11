@@ -2,7 +2,7 @@ name: ci
 
 on:
   schedule:
-    - cron:  '1 0 * * *'
+    - cron:  '1 */6 * * *'
 
 jobs:
   fetch-data:
@@ -12,12 +12,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.90
+          python-version: 3.12
       - name: run
         run: sh run_dayly_batch.sh
       - name: GIT commit and push all changed files
         env: 
-          CI_COMMIT_MESSAGE: Continuous Integration Build Artifacts
+          CI_COMMIT_MESSAGE: Automatic scraper run
           CI_COMMIT_AUTHOR: Continuous Integration
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
