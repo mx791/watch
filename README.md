@@ -3,7 +3,7 @@
 ![image](./out/count_per_day.jpeg)
 
 ## Analyse des dernières données
-Nom du dernier fichier: .DS_Store
+Nom du dernier fichier: out_2024_07_11.csv
 ![image](./out/count_per_brand.jpeg)
 ![image](./out/count_per_name.jpeg)
 ![image](./out/avg_price_per_name_desc.jpeg)
@@ -12,53 +12,53 @@ Nom du dernier fichier: .DS_Store
 ## Détails des marques
 |Marque|Nombre d'annonces|Prix moyen|Prix max|Prix median|
 |------|-----------------|----------|--------|-----------|
-|audemarspiguet|10754|73010 €|2296940 €|46596 €| 
-|breitling|19772|5799 €|98788 €|4790 €| 
-|cartier|15774|9419 €|1157342 €|6159 €| 
-|hublot|10268|17983 €|543400 €|14146 €| 
-|jaegerlecoultre|5704|12009 €|383133 €|8800 €| 
-|omega|20147|4857 €|279500 €|3700 €| 
-|panerai|6637|9379 €|188621 €|7251 €| 
-|patekphilippe|12306|98437 €|6994359 €|58810 €| 
-|rolex|20414|16230 €|999990 €|11700 €| 
-|seiko|17053|1053 €|162947 €|547 €| 
-|tagheuer|11925|3114 €|63324 €|2419 €| 
-|tissot|6227|684 €|26388 €|520 €| 
-|tudor|9997|4338 €|985000 €|3708 €| 
+|audemarspiguet|10728|72991 €|2293229 €|46425 €| 
+|breitling|17012|5779 €|98666 €|4760 €| 
+|cartier|15906|9524 €|1156973 €|6193 €| 
+|hublot|10350|17829 €|543400 €|14130 €| 
+|jaegerlecoultre|5654|12436 €|474356 €|8892 €| 
+|omega|17468|4870 €|279500 €|3716 €| 
+|panerai|6694|9387 €|188430 €|7174 €| 
+|patekphilippe|10967|99346 €|6985422 €|59100 €| 
+|rolex|17504|16267 €|999990 €|11700 €| 
+|seiko|17074|1055 €|162555 €|545 €| 
+|tagheuer|12073|3105 €|63252 €|2400 €| 
+|tissot|5512|683 €|26355 €|521 €| 
+|tudor|8925|4359 €|985000 €|3702 €| 
 
 ## Détails des modèles
 Nom du modèle|Nombre d'annonces|Prix moyen|Prix median|
 |-------------|-----------------|----------|-----------|
-|Seiko|3848|717 €|380 €| 
-|Seiko Prospex|3299|1154 €|828 €| 
-|Rolex Datejust 36|2992|8243 €|7269 €| 
-|Patek Philippe Nautilus|2801|162904 €|123860 €| 
-|Omega Seamaster Diver 300 M|2512|5346 €|4975 €| 
-|Breitling|2458|6151 €|5170 €| 
-|Patek Philippe Calatrava|2346|29516 €|25500 €| 
-|Omega Speedmaster Professional Moonwatch|2159|9309 €|6850 €| 
-|Rolex Daytona|2125|43833 €|31500 €| 
-|Audemars Piguet Royal Oak Offshore Chronograph|2118|46072 €|38215 €| 
-|Rolex Submariner Date|2033|16572 €|14353 €| 
-|Omega Seamaster|1994|2367 €|1518 €| 
-|Seiko 5 Sports|1782|407 €|340 €| 
-|Rolex GMT-Master II|1777|19294 €|17500 €| 
-|Hublot Classic Fusion|1776|13189 €|9650 €| 
-|Seiko Presage|1771|850 €|649 €| 
-|Audemars Piguet Royal Oak Chronograph|1695|86997 €|69598 €| 
-|Cartier Santos|1614|11197 €|7962 €| 
-|Tudor Black Bay|1464|4144 €|3751 €| 
-|Tissot|1463|815 €|450 €| 
-|Breitling Navitimer|1453|5909 €|4676 €| 
-|Audemars Piguet Royal Oak|1447|64902 €|47500 €| 
-|Cartier|1438|8459 €|4430 €| 
-|Patek Philippe Aquanaut|1434|111527 €|91748 €| 
-|Breitling Chronomat|1423|6902 €|5671 €| 
-|TAG Heuer Carrera|1419|4991 €|4700 €| 
-|TAG Heuer Formula 1 Quartz|1414|1565 €|1538 €| 
-|Omega|1385|2590 €|1362 €| 
-|Rolex Datejust 41|1306|12986 €|12995 €| 
-|Omega Seamaster Aqua Terra|1260|4821 €|4637 €| 
+|Seiko|3896|712 €|387 €| 
+|Seiko Prospex|3319|1154 €|823 €| 
+|Rolex Datejust 36|2561|8263 €|7280 €| 
+|Patek Philippe Nautilus|2503|164349 €|124415 €| 
+|Omega Seamaster Diver 300 M|2153|5363 €|4980 €| 
+|Breitling|2092|6126 €|5157 €| 
+|Audemars Piguet Royal Oak Offshore Chronograph|2075|45879 €|38065 €| 
+|Patek Philippe Calatrava|2072|29316 €|25461 €| 
+|Omega Speedmaster Professional Moonwatch|1879|9231 €|6800 €| 
+|Rolex Daytona|1829|43697 €|31500 €| 
+|Seiko 5 Sports|1791|411 €|342 €| 
+|Rolex Submariner Date|1766|16603 €|14500 €| 
+|Hublot Classic Fusion|1737|13294 €|9658 €| 
+|Audemars Piguet Royal Oak Chronograph|1723|86331 €|69028 €| 
+|Seiko Presage|1723|857 €|672 €| 
+|Omega Seamaster|1713|2411 €|1500 €| 
+|Cartier Santos|1621|11056 €|7990 €| 
+|Rolex GMT-Master II|1541|19274 €|17500 €| 
+|Audemars Piguet Royal Oak|1439|67671 €|47723 €| 
+|TAG Heuer Formula 1 Quartz|1437|1564 €|1534 €| 
+|Cartier|1416|9360 €|4455 €| 
+|TAG Heuer Carrera|1389|4984 €|4715 €| 
+|Tudor Black Bay|1310|4099 €|3750 €| 
+|Patek Philippe Aquanaut|1284|111121 €|93033 €| 
+|Tissot|1275|813 €|450 €| 
+|Breitling Chronomat|1248|6804 €|5560 €| 
+|Breitling Navitimer|1242|5883 €|4667 €| 
+|Omega|1202|2575 €|1335 €| 
+|Hublot Big Bang Unico|1154|25890 €|20590 €| 
+|Omega Seamaster Aqua Terra|1118|4867 €|4650 €| 
 
 
- Readme generated on 11/07/2024 09:22:18
+ Readme generated on 11/07/2024 09:30:42
