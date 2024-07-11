@@ -12,7 +12,7 @@ files = listdir_nohidden("./data")
 sizes = []
 names = []
 
-for f in reversed(list(files)):
+for f in list(files):
     df = pd.read_csv(f"./data/{f}", sep=";")
     sizes.append(len(df))
     names.append(f)
@@ -23,7 +23,7 @@ f = px.bar(
 ).update_layout(xaxis_title="", yaxis_title="", width=1000)
 f.write_image("./out/count_per_day.jpeg", format="jpeg")
 
-name = os.listdir("./data")[0]
+name = files[-1]
 
 txt = f"""
 ## Données
