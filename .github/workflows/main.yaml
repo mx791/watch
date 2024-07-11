@@ -1,15 +1,11 @@
 name: ci
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  schedule:
+    - cron:  '1 0 * * *'
 
 jobs:
-  build:
+  fetch-data:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
