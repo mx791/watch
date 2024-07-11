@@ -28,7 +28,7 @@ def process_body(r) -> pd.DataFrame:
             out.append({
                 "name":  sanitize(texts.text),
                 "reference":  sanitize(art.find("div", {"class": "m-b-2"}).text),
-                "prix": re.findall("[0-9.]+", p.replace(",", "."))[0],
+                "prix": float(re.findall("[0-9.]+", p.replace(",", "."))[0]),
                 "currency": p.replace(str(re.findall("[0-9]+", p)[0]), ""),
                 "uid": art.find("a").get("href"),
                 "country": sanitize(art.find("span", {"class": "text-uppercase"}).text),
