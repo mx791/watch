@@ -59,4 +59,6 @@ Nom du modèle|Nombre d'annonces|Prix moyen|Prix median|
 |Omega|1385|2590 €|1362 €| 
 |Rolex Datejust 41|1306|12986 €|12995 €| 
 |Omega Seamaster Aqua Terra|1260|4821 €|4637 €| 
-Readme generated on 11/07/2024 09:14:26
+
+
+ Readme generated on 11/07/2024 09:16:07
