@@ -13,7 +13,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.90
+          python-version: 3.12
       - name: run
         run: pip install -r requirements.txt && python single_analysis.py && python create_readme.py
       - name: GIT commit and push all changed files
