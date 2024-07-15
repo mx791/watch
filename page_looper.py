@@ -104,7 +104,7 @@ if __name__ == '__main__':
     ]
     processes = []
     for b in brands:
-        p = Process(target=scrapp_brand, args=(b, 1000))
+        p = Process(target=scrapp_brand, args=(b, 1500))
         p.start()
         processes.append(p)
 
