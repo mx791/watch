@@ -12,53 +12,53 @@ Nom du dernier fichier: out_2024_07_15.csv
 ## Détails des marques
 |Marque|Nombre d'annonces|Prix moyen|Prix max|Prix median|
 |------|-----------------|----------|--------|-----------|
-|audemarspiguet|12707|64203 €|1902405 €|41315 €| 
-|breitling|21304|5401 €|88335 €|4424 €| 
-|cartier|19272|8313 €|347648 €|5529 €| 
-|hublot|12273|16239 €|543400 €|12842 €| 
-|jaegerlecoultre|6756|11157 €|393135 €|7988 €| 
-|omega|40899|5701 €|279500 €|4388 €| 
-|panerai|7923|8459 €|187305 €|6500 €| 
-|patekphilippe|12964|86926 €|5855060 €|51768 €| 
-|rolex|52653|17743 €|1407140 €|12617 €| 
-|seiko|22019|925 €|136967 €|494 €| 
-|tagheuer|14139|2886 €|59900 €|2236 €| 
-|tissot|6454|647 €|26290 €|490 €| 
-|tudor|10417|4038 €|985000 €|3450 €| 
+|audemarspiguet|12892|63985 €|1902405 €|41019 €| 
+|breitling|21911|5406 €|88335 €|4423 €| 
+|cartier|19405|8293 €|347648 €|5504 €| 
+|hublot|12332|16226 €|543400 €|12828 €| 
+|jaegerlecoultre|6804|11128 €|393135 €|7958 €| 
+|omega|44697|5775 €|279500 €|4447 €| 
+|panerai|7968|8447 €|187305 €|6499 €| 
+|patekphilippe|13103|86939 €|5855060 €|51768 €| 
+|rolex|80712|18934 €|1407140 €|12950 €| 
+|seiko|22759|924 €|136967 €|494 €| 
+|tagheuer|14321|2883 €|59900 €|2232 €| 
+|tissot|6676|645 €|26290 €|490 €| 
+|tudor|10549|4032 €|985000 €|3450 €| 
 
 ## Détails des modèles
 Nom du modèle|Nombre d'annonces|Prix moyen|Prix median|
 |-------------|-----------------|----------|-----------|
-|Rolex Datejust 36|6779|8889 €|7780 €| 
-|Rolex Daytona|5469|45675 €|33545 €| 
-|Seiko|4848|637 €|350 €| 
-|Rolex Submariner Date|4755|17254 €|14665 €| 
-|Rolex Datejust 41|4458|13146 €|13250 €| 
-|Seiko Prospex|4333|1054 €|746 €| 
-|Rolex GMT-Master II|4330|20616 €|18119 €| 
-|Omega Seamaster Diver 300 M|4178|5734 €|4910 €| 
-|Omega Seamaster Aqua Terra|3949|6549 €|5215 €| 
-|Omega Seamaster|2999|2530 €|1462 €| 
-|Omega Speedmaster Professional Moonwatch|2981|10186 €|6690 €| 
-|Patek Philippe Nautilus|2953|142201 €|108888 €| 
-|Omega Constellation|2934|5488 €|4134 €| 
-|Breitling|2654|5707 €|4877 €| 
-|Omega|2531|3155 €|1440 €| 
-|Audemars Piguet Royal Oak Offshore Chronograph|2479|40446 €|33968 €| 
-|Omega De Ville Prestige|2467|4897 €|4000 €| 
-|Patek Philippe Calatrava|2455|25992 €|22524 €| 
-|Seiko Presage|2392|776 €|601 €| 
-|Rolex Lady-Datejust|2388|7578 €|6038 €| 
-|Omega Speedmaster|2352|9227 €|7275 €| 
-|Seiko 5 Sports|2257|365 €|306 €| 
-|Hublot Classic Fusion|2099|12143 €|9143 €| 
-|Audemars Piguet Royal Oak Chronograph|2032|75200 €|60000 €| 
-|Cartier Santos|1936|10045 €|7253 €| 
-|Cartier|1730|7932 €|3902 €| 
-|Audemars Piguet Royal Oak|1703|58215 €|41414 €| 
-|TAG Heuer Formula 1 Quartz|1703|1466 €|1435 €| 
-|Omega Seamaster Planet Ocean|1654|6486 €|5587 €| 
-|TAG Heuer Carrera|1642|4637 €|4401 €| 
+|Rolex Datejust 36|10501|9621 €|8376 €| 
+|Rolex Daytona|8391|48229 €|36490 €| 
+|Rolex Datejust 41|6674|13371 €|13500 €| 
+|Rolex Submariner Date|6252|17893 €|14943 €| 
+|Rolex GMT-Master II|5715|21723 €|18448 €| 
+|Seiko|5020|632 €|350 €| 
+|Rolex Lady-Datejust|4862|8475 €|7021 €| 
+|Seiko Prospex|4491|1050 €|747 €| 
+|Omega Seamaster Diver 300 M|4462|5798 €|4965 €| 
+|Omega Seamaster Aqua Terra|4416|6679 €|5272 €| 
+|Rolex Datejust 31|3262|12059 €|10960 €| 
+|Omega Constellation|3241|5636 €|4469 €| 
+|Omega Seamaster|3197|2556 €|1450 €| 
+|Omega Speedmaster Professional Moonwatch|3130|10280 €|6700 €| 
+|Patek Philippe Nautilus|2984|142381 €|108664 €| 
+|Omega De Ville Prestige|2844|4904 €|4009 €| 
+|Omega|2736|3216 €|1437 €| 
+|Breitling|2722|5699 €|4877 €| 
+|Rolex Day-Date 36|2703|29304 €|22297 €| 
+|Omega Speedmaster|2533|9314 €|7258 €| 
+|Rolex Sky-Dweller|2525|31937 €|23950 €| 
+|Audemars Piguet Royal Oak Offshore Chronograph|2515|40321 €|33884 €| 
+|Patek Philippe Calatrava|2482|25925 €|22500 €| 
+|Seiko Presage|2479|781 €|604 €| 
+|Seiko 5 Sports|2320|367 €|306 €| 
+|Hublot Classic Fusion|2109|12129 €|9130 €| 
+|Audemars Piguet Royal Oak Chronograph|2065|74872 €|60000 €| 
+|Rolex Explorer II|2043|10980 €|9789 €| 
+|Rolex Day-Date 40|2017|56443 €|49885 €| 
+|Cartier Santos|1957|10000 €|7250 €| 
 
 
- Readme generated on 15/07/2024 14:11:57
+ Readme generated on 15/07/2024 18:59:21
