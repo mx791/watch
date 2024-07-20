@@ -12,53 +12,53 @@ Nom du dernier fichier: out_2024_07_20.csv
 ## Détails des marques
 |Marque|Nombre d'annonces|Prix moyen|Prix max|Prix median|
 |------|-----------------|----------|--------|-----------|
-|audemarspiguet|10029|64039 €|1551479 €|41000 €| 
-|breitling|16163|5427 €|88873 €|4436 €| 
-|cartier|14210|8334 €|298660 €|5549 €| 
-|hublot|9690|16296 €|543400 €|12921 €| 
-|jaegerlecoultre|5533|11185 €|392996 €|7954 €| 
-|omega|32593|5839 €|279500 €|4490 €| 
-|panerai|6327|8594 €|187305 €|6542 €| 
-|patekphilippe|10609|88007 €|5837623 €|51720 €| 
-|rolex|58755|19044 €|999990 €|13021 €| 
-|seiko|17891|936 €|137973 €|496 €| 
-|tagheuer|11031|2864 €|59900 €|2222 €| 
-|tissot|5396|650 €|26450 €|490 €| 
-|tudor|7501|4062 €|985000 €|3450 €| 
+|audemarspiguet|11898|63836 €|1551479 €|40944 €| 
+|breitling|20018|5398 €|88873 €|4419 €| 
+|cartier|17647|8250 €|298660 €|5500 €| 
+|hublot|11370|16289 €|543400 €|12935 €| 
+|jaegerlecoultre|6493|11105 €|392996 €|7984 €| 
+|omega|41385|5759 €|279500 €|4444 €| 
+|panerai|7699|8497 €|187305 €|6507 €| 
+|patekphilippe|12390|86908 €|5837623 €|51688 €| 
+|rolex|77292|19191 €|1407140 €|13063 €| 
+|seiko|21829|930 €|137973 €|498 €| 
+|tagheuer|13570|2881 €|59900 €|2244 €| 
+|tissot|6050|647 €|26450 €|490 €| 
+|tudor|9451|4053 €|985000 €|3464 €| 
 
 ## Détails des modèles
 Nom du modèle|Nombre d'annonces|Prix moyen|Prix median|
 |-------------|-----------------|----------|-----------|
-|Rolex Datejust 36|7634|9675 €|8500 €| 
-|Rolex Daytona|6242|47861 €|36656 €| 
-|Rolex Datejust 41|5013|13432 €|13507 €| 
-|Rolex Submariner Date|4514|17859 €|14859 €| 
-|Rolex GMT-Master II|4191|21789 €|18458 €| 
-|Seiko|3897|633 €|350 €| 
-|Seiko Prospex|3514|1043 €|730 €| 
-|Rolex Lady-Datejust|3391|8658 €|7153 €| 
-|Omega Seamaster Aqua Terra|3357|6624 €|5280 €| 
-|Omega Seamaster Diver 300 M|3263|5708 €|4920 €| 
-|Patek Philippe Nautilus|2389|146822 €|108242 €| 
-|Omega Constellation|2372|5825 €|4739 €| 
-|Rolex Datejust 31|2323|11825 €|10777 €| 
-|Omega Speedmaster Professional Moonwatch|2235|10233 €|6588 €| 
-|Omega Seamaster|2207|2660 €|1480 €| 
-|Omega De Ville Prestige|2152|4890 €|4000 €| 
-|Patek Philippe Calatrava|2018|25803 €|22270 €| 
-|Seiko Presage|2014|779 €|602 €| 
-|Breitling|1979|5836 €|4890 €| 
-|Omega|1940|3288 €|1476 €| 
-|Audemars Piguet Royal Oak Offshore Chronograph|1937|40017 €|33724 €| 
-|Rolex Day-Date 36|1912|30101 €|22587 €| 
-|Rolex Sky-Dweller|1905|31534 €|24001 €| 
-|Omega Speedmaster|1822|9283 €|7247 €| 
-|Seiko 5 Sports|1817|367 €|305 €| 
-|Hublot Classic Fusion|1692|11974 €|9168 €| 
-|Audemars Piguet Royal Oak Chronograph|1609|74754 €|59762 €| 
-|Rolex Explorer II|1489|10864 €|9789 €| 
-|Cartier Santos|1481|10021 €|7250 €| 
-|Rolex Day-Date 40|1467|56070 €|49415 €| 
+|Rolex Datejust 36|10020|9710 €|8490 €| 
+|Rolex Daytona|8147|48466 €|36990 €| 
+|Rolex Datejust 41|6593|13418 €|13500 €| 
+|Rolex Submariner Date|5936|17996 €|14898 €| 
+|Rolex GMT-Master II|5458|21849 €|18450 €| 
+|Seiko|4807|625 €|350 €| 
+|Rolex Lady-Datejust|4522|8681 €|7194 €| 
+|Seiko Prospex|4298|1042 €|734 €| 
+|Omega Seamaster Aqua Terra|4153|6624 €|5280 €| 
+|Omega Seamaster Diver 300 M|4140|5706 €|4950 €| 
+|Rolex Datejust 31|3140|11887 €|10821 €| 
+|Omega Constellation|2975|5633 €|4450 €| 
+|Omega Seamaster|2940|2600 €|1481 €| 
+|Omega Speedmaster Professional Moonwatch|2892|10150 €|6600 €| 
+|Patek Philippe Nautilus|2783|144879 €|108242 €| 
+|Omega De Ville Prestige|2677|4875 €|3971 €| 
+|Rolex Sky-Dweller|2536|31968 €|24158 €| 
+|Rolex Day-Date 36|2532|29977 €|22499 €| 
+|Breitling|2507|5730 €|4847 €| 
+|Omega|2503|3196 €|1450 €| 
+|Seiko Presage|2417|781 €|600 €| 
+|Patek Philippe Calatrava|2344|25879 €|22589 €| 
+|Omega Speedmaster|2318|9307 €|7181 €| 
+|Audemars Piguet Royal Oak Offshore Chronograph|2291|40139 €|33884 €| 
+|Seiko 5 Sports|2198|366 €|305 €| 
+|Rolex Day-Date 40|1986|56710 €|49859 €| 
+|Hublot Classic Fusion|1965|12159 €|9200 €| 
+|Rolex Explorer II|1922|11088 €|9844 €| 
+|Audemars Piguet Royal Oak Chronograph|1907|74548 €|58900 €| 
+|Cartier Santos|1825|9956 €|7250 €| 
 
 
- Readme generated on 20/07/2024 01:45:54
+ Readme generated on 20/07/2024 07:01:55
