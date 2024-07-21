@@ -3,7 +3,7 @@
 ![image](./out/count_per_day.jpeg)
 
 ## Analyse des dernières données
-Nom du dernier fichier: out_2024_07_20.csv
+Nom du dernier fichier: out_2024_07_21.csv
 ![image](./out/count_per_brand.jpeg)
 ![image](./out/count_per_name.jpeg)
 ![image](./out/avg_price_per_name_desc.jpeg)
@@ -12,53 +12,53 @@ Nom du dernier fichier: out_2024_07_20.csv
 ## Détails des marques
 |Marque|Nombre d'annonces|Prix moyen|Prix max|Prix median|
 |------|-----------------|----------|--------|-----------|
-|audemarspiguet|12883|63369 €|1551479 €|40900 €| 
-|breitling|21962|5404 €|88873 €|4423 €| 
-|cartier|19313|8242 €|298660 €|5500 €| 
-|hublot|12241|16221 €|543400 €|12842 €| 
-|jaegerlecoultre|6908|11091 €|392996 €|7977 €| 
-|omega|45381|5765 €|279500 €|4439 €| 
-|panerai|8041|8465 €|187305 €|6500 €| 
-|patekphilippe|13087|86841 €|5837623 €|51532 €| 
-|rolex|85755|19227 €|1407140 €|13074 €| 
-|seiko|22760|929 €|137973 €|498 €| 
-|tagheuer|14505|2878 €|59900 €|2236 €| 
-|tissot|6691|645 €|26450 €|490 €| 
-|tudor|10467|4049 €|985000 €|3464 €| 
+|audemarspiguet|8732|63347 €|1551479 €|41170 €| 
+|breitling|14261|5400 €|88873 €|4424 €| 
+|cartier|12604|8261 €|298660 €|5459 €| 
+|hublot|8223|16297 €|543400 €|12780 €| 
+|jaegerlecoultre|4707|10949 €|392996 €|8000 €| 
+|omega|29080|5787 €|279500 €|4450 €| 
+|panerai|5428|8563 €|187305 €|6550 €| 
+|patekphilippe|9007|83508 €|5650000 €|50721 €| 
+|rolex|54293|19262 €|999990 €|13083 €| 
+|seiko|15310|919 €|94123 €|496 €| 
+|tagheuer|9710|2878 €|52900 €|2233 €| 
+|tissot|4637|644 €|15000 €|490 €| 
+|tudor|6984|4058 €|985000 €|3443 €| 
 
 ## Détails des modèles
 Nom du modèle|Nombre d'annonces|Prix moyen|Prix median|
 |-------------|-----------------|----------|-----------|
-|Rolex Datejust 36|11103|9729 €|8500 €| 
-|Rolex Daytona|9043|48753 €|36995 €| 
-|Rolex Datejust 41|7292|13435 €|13510 €| 
-|Rolex Submariner Date|6614|17947 €|14900 €| 
-|Rolex GMT-Master II|6015|21946 €|18490 €| 
-|Rolex Lady-Datejust|5086|8731 €|7227 €| 
-|Seiko|5001|628 €|350 €| 
-|Omega Seamaster Diver 300 M|4547|5772 €|4950 €| 
-|Seiko Prospex|4512|1047 €|735 €| 
-|Omega Seamaster Aqua Terra|4512|6621 €|5282 €| 
-|Rolex Datejust 31|3503|11954 €|10933 €| 
-|Omega Constellation|3290|5590 €|4359 €| 
-|Omega Seamaster|3212|2595 €|1485 €| 
-|Omega Speedmaster Professional Moonwatch|3188|10215 €|6683 €| 
-|Patek Philippe Nautilus|2959|144046 €|108500 €| 
-|Omega De Ville Prestige|2936|4910 €|3990 €| 
-|Rolex Day-Date 36|2814|29883 €|22499 €| 
-|Rolex Sky-Dweller|2762|31895 €|24142 €| 
-|Omega|2745|3232 €|1445 €| 
-|Breitling|2718|5727 €|4885 €| 
-|Omega Speedmaster|2537|9287 €|7237 €| 
-|Audemars Piguet Royal Oak Offshore Chronograph|2516|40122 €|33831 €| 
-|Seiko Presage|2506|779 €|600 €| 
-|Patek Philippe Calatrava|2496|25820 €|22499 €| 
-|Seiko 5 Sports|2317|367 €|306 €| 
-|Rolex Day-Date 40|2218|56867 €|49864 €| 
-|Rolex Explorer II|2152|11073 €|9836 €| 
-|Hublot Classic Fusion|2114|12127 €|9125 €| 
-|Audemars Piguet Royal Oak Chronograph|2061|74206 €|59500 €| 
-|Cartier Santos|1964|9908 €|7250 €| 
+|Rolex Datejust 36|7048|9690 €|8471 €| 
+|Rolex Daytona|5823|48883 €|36705 €| 
+|Rolex Datejust 41|4562|13458 €|13544 €| 
+|Rolex Submariner Date|4129|17829 €|14900 €| 
+|Rolex GMT-Master II|3853|21827 €|18446 €| 
+|Seiko|3292|624 €|349 €| 
+|Rolex Lady-Datejust|3275|8803 €|7291 €| 
+|Seiko Prospex|3045|1046 €|729 €| 
+|Omega Seamaster Diver 300 M|2955|5786 €|4950 €| 
+|Omega Seamaster Aqua Terra|2908|6682 €|5283 €| 
+|Rolex Datejust 31|2204|11910 €|10878 €| 
+|Omega Constellation|2149|5644 €|4500 €| 
+|Omega Seamaster|2029|2676 €|1481 €| 
+|Omega Speedmaster Professional Moonwatch|2022|10590 €|6696 €| 
+|Patek Philippe Nautilus|2018|139275 €|107000 €| 
+|Omega De Ville Prestige|1861|4827 €|3884 €| 
+|Rolex Day-Date 36|1789|30243 €|22524 €| 
+|Rolex Sky-Dweller|1763|31354 €|24143 €| 
+|Seiko Presage|1759|786 €|610 €| 
+|Breitling|1758|5694 €|4871 €| 
+|Omega|1746|3142 €|1470 €| 
+|Patek Philippe Calatrava|1721|25756 €|22119 €| 
+|Audemars Piguet Royal Oak Offshore Chronograph|1663|40430 €|33414 €| 
+|Omega Speedmaster|1601|9095 €|7247 €| 
+|Seiko 5 Sports|1572|369 €|305 €| 
+|Audemars Piguet Royal Oak Chronograph|1413|73774 €|58822 €| 
+|Hublot Classic Fusion|1408|12412 €|9269 €| 
+|Rolex Day-Date 40|1396|57769 €|50353 €| 
+|Rolex Explorer II|1351|11014 €|9800 €| 
+|Cartier Santos|1323|9790 €|7153 €| 
 
 
- Readme generated on 20/07/2024 18:59:22
+ Readme generated on 21/07/2024 01:52:59
