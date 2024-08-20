@@ -17,7 +17,7 @@ for f in files:
     sizes.append(len(df))
     names.append(f)
 
-f = px.bar(
+f = px.line(
     x=names, y=sizes, template=theme,
     title="Nombre d'annonces"
 ).update_layout(xaxis_title="", yaxis_title="", width=1000)
