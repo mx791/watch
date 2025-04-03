@@ -26,6 +26,9 @@ f.write_image("./out/count_per_day.jpeg", format="jpeg")
 name = files[-1]
 
 txt = f"""
+# Chrono24 Scraper
+Scrapping & analyse des données de Chrono24 pour le suivi du marché gris des montres.
+
 ## Données
 ![image](./out/count_per_day.jpeg)
 
