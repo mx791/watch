@@ -1,4 +1,7 @@
 
+# Chrono24 Scraper
+Scrapping & analyse des données de Chrono24 pour le suivi du marché gris des montres.
+
 ## Données
 ![image](./out/count_per_day.jpeg)
 
@@ -61,4 +64,4 @@ Nom du modèle|Nombre d'annonces|Prix moyen|Prix median|
 |               Omega Seamaster Planet Ocean|1866|6472 €|5659 €| 
 
 
- Readme generated on 31/03/2025 01:59:54
+ Readme generated on 03/04/2025 08:36:23
